@@ -70,8 +70,6 @@ Designed a Power BI report with four complementary components:
 - **KPI design and comparative analysis** — business performance assessment
 - **Data storytelling** — communication of findings for decision-makers
 
-> **Scope note:** The screenshot confirms the report's visual elements and displayed results. Specific data sources, Power Query transformations, and DAX measures are not documented here because the underlying `.pbix` file has not been reviewed.
-
 ---
 
 ## 📊 5. Key Results
@@ -103,37 +101,20 @@ The modeled outsourcing scenario shows a **61.2% lower overall monthly cost** th
 
 ## 📊 6. Dashboard
 
-### Power BI Dashboard Preview
+An interactive **Power BI dashboard** was developed to compare in-house operational costs against outsourcing alternatives, identify potential savings, and support data-driven decision-making.
 
 <p align="center">
-  <img src="assets/dashboard-preview.png" alt="In-House Operations vs. Outsourcing Power BI dashboard" width="100%">
+  <img src="assets/dashboard-preview.png" alt="In-House Operations vs. Outsourcing Power BI Dashboard" width="100%">
 </p>
 
-<p align="center">
-  The report combines <b>financial KPIs</b>, an <b>activity-based cost comparison</b>, and <b>decision-oriented findings</b> in one interactive Power BI view.
-</p>
+### Dashboard Features
 
-### Open the Interactive Power BI Report
+- **Interactive activity filter** to explore individual operational activities.
+- **KPI cards** displaying in-house costs, outsourcing costs, and potential monthly and annual savings.
+- **Comparative bar chart** highlighting cost differences across activities.
+- **Key findings panel** summarizing savings opportunities and strategic considerations.
 
-📁 **[Download the Power BI project (.pbix)](In_House_vs_Outsourcing.pbix)**
-
-1. Download the `.pbix` file from this repository.
-2. Open the file in **Microsoft Power BI Desktop**.
-3. Use **Filter by activity** to select an operational activity or view all activities.
-4. Review the cost indicators, comparison chart, and key findings.
-
-> **Important:** Add your original Power BI file to this repository using the name `In_House_vs_Outsourcing.pbix` for the link above to work. The starter package includes the README and preview image, **not** the original `.pbix`. If the report uses external data connections, reopening or refreshing it may require access to those sources.
-
-### Repository Structure
-
-```text
-in-house-vs-outsourcing-cost-analysis/
-│
-├── README.md
-├── In_House_vs_Outsourcing.pbix     # Add your original Power BI report
-└── assets/
-    └── dashboard-preview.png        # Dashboard screenshot
-```
+The original **Power BI (.pbix) file** is available in this repository for further exploration.
 
 ---
 
